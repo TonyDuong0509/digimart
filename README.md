@@ -1,5 +1,6 @@
 ** Setup Enviroment **
 
+- cd src
 - cp .env.example .env
 - Change values in mysql of file .env
   + DB_CONNECTION=mysql
