@@ -14,8 +14,8 @@ cd /var/www/html && COMPOSER_PROCESS_TIMEOUT=0 composer install
 cd /var/www/html && php artisan key:generate
 cd /var/www/html && php artisan storage:link
 cd /var/www/html && php artisan cache:clear && php artisan view:clear && php artisan optimize && php artisan queue:restart
-cd /var/www/html composer require laravel/breeze --dev
-cd /var/www/html php artisan breeze:install
+cd /var/www/html && composer require laravel/breeze --dev
+cd /var/www/html && php artisan breeze:install
 cd /var/www/html && php artisan migrate
 
 # Vite install
